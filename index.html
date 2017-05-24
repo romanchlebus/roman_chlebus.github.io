@@ -3,43 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <form action="https://formspree.io/orlik313@gmail.com"
       method="POST">
+      
        <label for="user-name">  Imię </label>
-       <input id="user-name" name="Imię" type="text"><br>
+       <input id="user-name" name="Imię" type="text">
        
         <label for="user-surname">  Nazwisko </label>
-       <input id="user-surname" name="Nazwisko" type="text"><br>
+       <input id="user-surname" name="Nazwisko" type="text">
        
        <label for="user-email">  Email</label>
-       <input id="user-email" name="mail" type ="email"><br>
+       <input id="user-email" name="mail" type ="email">
        
         
        <label for="user-tel">  Numer telefonu</label>
-       <input id="user-tel" name="telefon" type ="text"><br>
+       <input id="user-tel" name="telefon" type ="text">
        
-       <label for="user-option">  Opcje</label>
+       <label for="user-option">Miasto:</label>
        <select id="user-option" name="Miasto" >
            <option value="1">Kraków</option>
            <option value="2">Warszawa</option>
            <option value="3">Gdańsk</option>       
        </select>
-       <br>
+        <label for="plec1">Płeć:</label>
         <label for="plec1">Kobieta</label>
-        <input id="plec1" name="Kobieta" type ="radio"><br>
+        <input id="plec1" name="Kobieta" type ="radio">
         <label for="plec2">Mężczyzna</label>
-        <input id="plec2" name="Mężczyzna" type ="radio"><br>
+        <input id="plec2" name="Mężczyzna" type ="radio">
         
-        Wyrażam zgodę na przetwarzanie <br> moich danych osobowych dla celów tego zadania:): <input type="checkbox" id="Check" name="Zgoda na przetwarzanie danych"><br>
-        
+        <br><br>Wyrażam zgodę na przetwarzanie <br> moich danych osobowych dla <br> celów tego zadania:): <br>
+        Tak: <input type="checkbox" id="Check" name="Zgoda na przetwarzanie danych">
+        Nie: <input type="checkbox" id="Check" name="Nie wyraża zgoda na przetwarzanie danych">
+       
        <label for="user-messege">Wiadomość</label>
-       <textarea id="user-messege" name="wiadomosc" maxlenght="200"></textarea><br>
-       
-       
-   
+       <textarea id="user-messege" name="wiadomosc" maxlenght="200"></textarea>
        
        <input type="submit" value="Wyślij">
        

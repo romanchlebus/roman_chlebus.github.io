@@ -1,0 +1,29 @@
+
+form{
+    position: absolute;
+    left: 40%;
+}
+
+input{
+    position: relative;
+    left: 0px;
+display: block;
+}
+select{
+    display: block;
+}
+#Check{
+    position: relative;
+    left: 0px;
+    }
+textarea{
+    display: block;
+}
+#plec1, #plec2{
+    display: inline;
+}
+
+
+
+
+
