@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <form action="https://formspree.io/orlik313@gmail.com"
       method="POST">
       
@@ -23,26 +23,27 @@
        <label for="user-tel">  Numer telefonu</label>
        <input id="user-tel" name="telefon" type ="text">
        
-       <label for="user-option">Miasto:</label>
+      <p> <label for="user-option">Miasto:</label></p>
        <select id="user-option" name="Miasto" >
            <option value="1">Kraków</option>
            <option value="2">Warszawa</option>
            <option value="3">Gdańsk</option>       
        </select>
-        <label for="plec1">Płeć:</label>
+        <p><label for="plec1">Płeć:</label></p>
         <label for="plec1">Kobieta</label>
         <input id="plec1" name="Kobieta" type ="radio">
         <label for="plec2">Mężczyzna</label>
         <input id="plec2" name="Mężczyzna" type ="radio">
         
-        <br><br>Wyrażam zgodę na przetwarzanie <br> moich danych osobowych dla <br> celów tego zadania:): <br>
-        Tak: <input type="checkbox" id="Check" name="Zgoda na przetwarzanie danych">
-        Nie: <input type="checkbox" id="Check" name="Nie wyraża zgoda na przetwarzanie danych">
+        
+        <p>Wyrażam zgodę na przetwarzanie <br> moich danych osobowych dla <br> celów tego zadania:):</p>
+        Tak: <input type="checkbox" class="Check" name="Zgoda na przetwarzanie danych">
+        Nie: <input type="checkbox" class="Check" name="Nie wyraża zgoda na przetwarzanie danych">
        
-       <label for="user-messege">Wiadomość</label>
-       <textarea id="user-messege" name="wiadomosc" maxlenght="200"></textarea>
+        <p><label for="user-messege">Wiadomość</label></p>
+       <textarea id="user-messege" maxlength="200" name="wiadomosc"></textarea>
        
-       <input type="submit" value="Wyślij">
+        <p><input id="wyslij" type="submit" value="Wyślij"></p>
        
    </form> 
     
